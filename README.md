@@ -1,18 +1,16 @@
-285 project - predicting public transport ridership
-=====
+# 285 project - predicting public transport ridership
 
 - need to use all 3 houses - TSA, regression, ARIMA
 
-IDEAS
------
+## IDEAS
 
-- do tsa on ridership
--- +/- historic tsa - gas prices, populationon?
+1. do tsa on ridership
+* +/- historic tsa - gas prices, populationon?
 
 
-- relate todays ridership to predictors on a per city basis
-- income
-- size metropolitan area
-- unemployment
-- average wage
+2. relate todays ridership to predictors on a per city basis
+* income
+* size metropolitan area
+* unemployment
+* average wage
  
