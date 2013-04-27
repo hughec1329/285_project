@@ -11,8 +11,8 @@ IDEAS
 
 
 - relate todays ridership to predictors on a per city basis
--- income
--- size metropolitan area
--- unemployment
--- average wage
--- 
+- income
+- size metropolitan area
+- unemployment
+- average wage
+ 
