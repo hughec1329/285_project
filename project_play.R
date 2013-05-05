@@ -1,6 +1,7 @@
 # MGT 285 project - play with data
 # 20130417 HCrockford
 
+
 pub = read.csv("pub.csv",stringsAsFactors = F)
 names(pub)
 dim(pub)
@@ -21,5 +22,19 @@ sapply(city,function(i) grep(
 
 # can match city via grep and pull out fare cost - merge.
 
-grep('^$                               # first one grep('^$
+grep('^$'a)                               # first one grep('^$
+
+library(RCurl)
+library(XML)
+city= readHTMLTable("http://en.wikipedia.org/wiki/List_of_United_States_urban_areas")
+city = city[[3]]                       # pop 2010, land area, density.
+
+crime= readHTMLTable("http://en.wikipedia.org/wiki/United_States_cities_by_crime_rate")
+crime = crime[[4]]
+
+crim2 = readHTMLTable("http://www.infoplease.com/ipa/A0004902.html")
+crim2[[2]]                             # gets butchered
+   
+
+
 
